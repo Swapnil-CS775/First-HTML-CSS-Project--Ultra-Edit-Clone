@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+nav {
+    /* width: 81vw; */
+    margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 315px;
+  font-family: "Segoe UI";
+  padding-top: 20px;
+}
+.logo img {
+  width: auto;
+  height: 55px;
+  cursor: pointer;
+}
+.right ul {
+  display: flex;
+  gap: 34px;
+}
+.right ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.right ul li span{
+    padding:5px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Segoe UI";
+    margin: 70px;
+    gap: 50px;
+}
+.sec{
+    font-size: 48px;
+}
+.thrd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.thrd span{
+    font-size: 20px;
+}
+.forth{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.forth button{
+    border: 2px solid transparent;
+    
+    background-color:#00b6d1;
+    border-radius:7px;
+    color: white;
+    padding:12px 15px;
+    font-size:14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forth button a{
+    text-decoration: none;
+    color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px 30px 200px;
+    font-family: "Segoe UI";
+    gap: 10px;
+
+}
+.second img{
+    width:60px;
+    height: 57px;
+    cursor: pointer;
+}
+
+.large{
+    font-size: 25px;
+    cursor: pointer;
+}
+.small{
+    padding: 8px 0px 0px 0px;
+    font-size: small;
+    cursor: pointer;
+}
+.item{
+    border: 2px solid transparent;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    gap: 7px;
+    padding: 23px;
+    background-color: #f8f2f2;
+}
+.grid{
+    font-family: "Segoe UI";
+    display: grid;
+    width: 72vw;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.item-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.version{
+    font-size:12px;
+    font-weight: 400;
+    padding-left: 23px;
+    margin-bottom: 10px;
+}
+
+.btn-blue{
+    border: 2px solid transparent; 
+    background-color:#00b6d1;
+    border-radius:7px;
+    color: white;
+    padding:12px 15px;
+    font-size:14px;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.btn-blue a{
+    text-decoration: none;
+    color: white;
+}
+#first{
+    margin-left:56px;
+}
+
+@media  screen and (max-width:1100px) {
+    .grid{
+        
+        grid-template-columns: 1fr;
+    }
+    .flex2{
+        grid-template-columns: 1fr;
+        }
+    .mid2{
+        flex-wrap: wrap;
+    }
+    .sixth{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1100px) {
+            .flex{
+                margin-left:30px;
+            }    
+}
+
+.third{
+    width: 100vw;
+    /* height:800px; */
+    background-color:#222222;
+    margin: 77px 0px 0px 0px;
+    
+
+}
+.info{
+    color: white;
+    padding-top:50px ;
+    padding-bottom:50px ;
+    font-family: "Segoe UI";
+}
+.info h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.info p{
+    font-size: 15px;
+}
+.mid{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.flex2{
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px #333;
+}
+.subscribe{
+    height: 264px;
+    width: 345px;
+    background-color: #ffffff;
+    margin-left: 113px;
+    border-radius: 12px;
+
+
+}
+.subscribe h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #00b6d1;
+    padding: 35px 10px 2px 40px;
+}
+.subscribe p{
+    padding: 23px 10px 2px 100px;
+    font-size: 15px;
+}
+.subscribe input {
+    box-sizing: border-box;
+    height:46px;
+    width: 267px;
+    margin: 1px 14px 2px 40px;
+    padding: 8px;
+    border: 1px solid rgb(51 51 51 / 16%);
+}
+.btnn button{
+    height:46px;
+    width: 268px;
+    margin:4px 14px 2px 40px;
+    border: 1px solid rgb(51 51 51 / 16%);
+    background-color: #00b6d1;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+.info2{
+    margin: 50px;
+    padding: 20px;
+}
+.bold h3{
+    font-weight: bold;
+    font-size: 27px;
+    color: white;
+}
+.info2 p{
+    font-size: 15px;
+    color: white;
+}
+
+.fifth{
+    width: 100vw;
+    height:364px;
+    background-color:#ffffff;
+    /* margin: 10px 200px 0px 200px; */
+    margin: 77px 0px -25px 0px;
+}
+.mid2{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.mid2 li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.mid2 h3{
+    font-size: 16px;
+    padding: 0px 30px 16px 0px;
+}
+.mid2 p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#space{
+    margin-left: 20px;
+}
+
+.info1{
+    color: white;
+    margin: 10px;
+    
+}
+.info1 h3{
+    padding: 4px;
+}
+.info1 p{
+    padding: 4px;
+    padding-bottom: 40px;
+}
+.chotha input{
+    height:33px;
+    width: 164px;
+    padding: 4px;
+    border: 1px solid rgb(51 51 51 / 16%);
+    border-radius:6px;
+    margin-bottom: 10px;
+}
+.chotha button{
+    display: block;
+    height:43px;
+    width: 177px;
+    background-color: #00b6d1;
+    border: 1px solid rgb(51 51 51 / 16%);
+    border-radius:6px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.sixth{
+    width: 70vw;
+    background-color:#ffffff;
+    margin: auto;
+    margin: 10px 200px 10px 200px;
+}
+.flex5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex5 img{
+    height: 55px;
+    width: auto;
+    cursor: pointer;
+}
+.icons i{
+    padding: 4px;
+    font-size: 27px;
+    cursor: pointer;
+}
+.copyright{
+    margin: 10px 0px 40px 0px;
+    padding: 4px;
+    font-size: 12px;
+}
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .right ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .right ul li {
+      text-align: left;
+      width: 100%;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    /* Hamburger Menu Icon */
+    .menu-icon {
+      cursor: pointer;
+      display: block;
+    }
+  
+    .right.active ul {
+      display: flex;
+    }
+  }
+  
+  /* Add this if using font-awesome or similar for the menu icon */
+  .menu-icon i {
+    font-size: 24px;
+  }
